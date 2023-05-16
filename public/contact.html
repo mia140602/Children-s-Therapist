@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        
+        <title>Contact</title>
+        <link rel="stylesheet" href="./css/contact.css"/>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="contact-box">
+                <div class="left"></div>
+
+                <div class="right">
+                    <form class ="registerForm" method="post" id="info-form">
+                        <input type="hidden" name="userID" value="23114306030131">
+                        <h2>Contact us</h2>
+                        <input type="text" class="field" placeholder="Your Name" id="name">
+                        <input type="email" class="field" placeholder="Your Email" id="email">
+                        <input type="text" class="field" placeholder="Your Phone" id="sdt">
+                        
+                        <textarea class="field area" placeholder="Message" id="message"></textarea>
+                        <div id="baoloi"></div>
+                        
+                        <input type="submit" id="submit" name="submit" value="Submit" onclick="return kiemtra();">
+                    </form>
+                </div>
+
+             
+            </div>
+        </div>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
